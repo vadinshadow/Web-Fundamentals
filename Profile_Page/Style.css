@@ -47,6 +47,16 @@ body{
     border: none;
     font-size: 16px;
     box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #3fbbcf;
+}
+
+.btn:active{
+    background-color: #0d21d3;
+    position: relative;
 }
 
 .container{
@@ -138,6 +148,13 @@ a{
     display: flex;
     align-items: center;
     font-size: 24px;
+    column-gap: 10px;
+}
+
+.end img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
 
 .dates{
