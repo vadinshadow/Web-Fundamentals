@@ -98,7 +98,7 @@ body{
     overflow: hidden;
 }
 
-.card-header{
+.card-top{
     background-color: #14a2b8;
     height: 125px;
     margin-bottom: 70px;
@@ -121,7 +121,7 @@ body{
     margin-left: 20px;
 }
 
-.icon-s{
+.icon-main{
     height: 20px;
 }
 
@@ -157,9 +157,9 @@ a{
     cursor: pointer;
 }
 
-.dates{
+.date{
     font-size: 20px;
-    color: #777;
+    color: gray;
 }
 
 .footer{
